@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Annie Tung's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/normalise.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
     <div id="container">
@@ -35,7 +42,7 @@
             great designs. I provide an empathetic approach and attention to
             detail when it comes to my work.
           </p>
-          <div>
+          <div id="my work">
             <h2>My Work</h2>
           </div>
           <div class="row 1">
@@ -44,7 +51,7 @@
               <!-- first column for project image -->
               <picture>
                 <source
-                  srcset="img/Inkspire_Portfolio/ink_cover_600x380.png"
+                  srcset="img/Inkspire_Portfolio/Inkspire_600/ink_cover_600x380.png"
                   media="(max-width:767px)"
                 />
                 <img src="img/Inkspire_Portfolio/Home.png" alt="Inkspire" />
@@ -63,8 +70,8 @@
                 directly from the app.
               </p>
               <!-- ends paragraph -->
-              <button><a href="Inkspire.html">view project</a></button
-              ><!-- link to view project -->
+              <a href="Inkspire.html" class="button">view project</a>
+              <!-- link to view project -->
             </div>
             <!-- ends second column for text -->
           </div>
@@ -75,7 +82,7 @@
               <!-- first column for picture -->
               <picture>
                 <source
-                  srrset="img/Flashcheck/flashcheck_cover_600x377.png"
+                  srcset="img/FlashCheck_Portfolio/flashcheck_cover_600x377.png"
                   media="(max-width:767px)"
                 />
                 <img
@@ -95,7 +102,7 @@
                 community. Self-testing is possible to help users evaluate their
                 own progress.
               </p>
-              <button><a href="#">view project</a></button>
+              <a href="#" class="button">view project</a>
             </div>
             <!-- end 2nd column for text -->
           </div>
@@ -115,9 +122,7 @@
           touch via email.
         </p>
         <div>
-          <button>
-            <a href="mailto:office@careerfoundry.com">send email</a>
-          </button>
+            <a href="mailto:office@careerfoundry.com" class="button contact">send email</a>
         </div>
       </div>
       <div>
