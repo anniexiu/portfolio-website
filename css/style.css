@@ -3,80 +3,16 @@ Primary color (blue): #A9E2F5;
 Secondary Color (beige): #F1E1C9;
 */
 
-/* Layout Styling */
-.container {
-  padding: 0 15px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-header {
-  background-color: #a9e2f5;
-  padding: 10px 0;
-  margin: 10px;
-  text-align: center;
-  -webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.3);
-  box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.3);
-  position: fixed;
-  width: 100%;
-}
-
-main {
-  padding-top: 133px;
-}
-
-.logo {
-  text-align: center;
-}
-
-nav > ul > li {
-  list-style: none;
-  padding: 0;
-  display: inline-block;
-}
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #ffffff;
-}
-nav > ul > li > a:visited {
-  color: #043353;
-}
-nav > ul > li > a:hover {
-  color: #d3dde6;
-}
-nav > ul > li > a:active {
-  color: #18a4e0;
-}
-
-#hero {
-  background-color: #a9e2f5;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
-}
-.row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
-}
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
-
 body {
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line height to 1.6 * the font-size */
   color: #505050;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   line-height: 1.4;
 }
 h1 {
@@ -107,40 +43,38 @@ a:focus {
   color: #cc6540;
   text-decoration: underline; /*Underlining when hovering over a link */
 }
-a:visited {
-  /*visited link*/
-  color: #ff7f50;
+a:visited {/*visited link*/
+color: #ff7f50
 }
-a:active {
-  /* selected link */
-  color: #994c30;
+a:active {/* selected link */
+color: #994c30;
 }
 .button {
   display: inline-block;
   background-color: #f4f4f4;
-  color: #4e555e; /*needed to override default link color */
+  color: #4E555E; /*needed to override default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #e0e0e0; /*width of the border, type, color */
+  border-bottom: 2px solid #E0E0E0; /*width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:hover {
   opacity: 0.8; /* reduces opacity of button to 80% */
-  color: #72d2e3;
+  color: #72D2E3;
   text-decoration: none;
 }
 .button:active {
-  color: #0591c0;
+  color: #0591C0;
 }
 .button.contact {
-  background-color: #cfecf5;
-  color: #0591c0;
+  background-color: #CFECF5;
+  color:#0591C0;
   text-transform: uppercase;
 }
 .button.contact:hover {
   color: #ffffff;
 }
 .button.contact:active {
-  color: #caaaf3;
+  color: #CAAAF3;
 }
