@@ -180,6 +180,7 @@ nav > ul > li > a:visited {
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
 }
 .navtoggle li .icon {
   padding-right: 0;
