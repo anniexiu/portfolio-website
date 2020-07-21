@@ -187,6 +187,7 @@ nav > ul > li > a:visited {
 }
 .navtoggle.responsive li {
   display: block;
+  padding: 10px 0;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
@@ -208,7 +209,7 @@ nav > ul > li > a:visited {
   width: 100%;
 }
 main {
-  padding-top: 56px;
+  padding-top: 100px;
 }
 #contact {
   background-color: #cfecf5;
@@ -284,11 +285,11 @@ Medium devices (640px and larger)
   nav > ul > li {
     display: inline-block;
   }
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
   .navtoggle li:last-child {
     display: none;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
   }
   nav > ul {
     margin: 1 em 0;
