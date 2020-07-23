@@ -102,6 +102,18 @@ a:active {
   color: #caaaf3;
 }
 
+.construction {
+  background-color: gray;
+  color: white; /*needed to override default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #e0e0e0; /*width of the border, type, color */
+  border-right: 2px solid #e0e0e0;
+  display: inline-block;
+  pointer-events: none;
+}
+
 /* Layout Styling */
 .container {
   padding: 0 15px;
